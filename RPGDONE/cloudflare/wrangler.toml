@@ -1,0 +1,29 @@
+name = "signull-proxy"
+main = "worker.js"
+compatibility_date = "2025-01-08"
+
+# Custom domain configuration
+[triggers]
+crons = []
+
+# Routes for custom domain
+[[routes]]
+pattern = "api.signullrift.com/*"
+zone_name = "signullrift.com"
+
+# APP_TOKEN is now a secret, not a var
+
+[vars]
+SIGNULL_SCHEMA = '''{"type":"object","required":["title","summary","fullStory","theme","setting","openingHook","choices","cliffhanger","uniqueTags","worldStateRef","npcsRef"],"properties":{"title":{"type":"string","maxLength":80},"summary":{"type":"string","maxLength":240},"fullStory":{"type":"string"},"theme":{"type":"string"},"setting":{"type":"string"},"openingHook":{"type":"string","maxLength":160},"uniqueTags":{"type":"array","minItems":3,"maxItems":6,"items":{"type":"string"}},"worldStateRef":{"type":"string"},"npcsRef":{"type":"string"},"choices":{"type":"array","minItems":3,"maxItems":4,"items":{"type":"object","required":["id","text","hint","consequence"],"properties":{"id":{"type":"string"},"text":{"type":"string","maxLength":120},"hint":{"type":"string","maxLength":140},"consequence":{"type":"string"}},"additionalProperties":false}},"cliffhanger":{"type":"string"}},"additionalProperties":false}'''
+
+[[kv_namespaces]]
+binding = "RATE"
+id = "14226e06f7e7450eb87cbad9ff17342d"
+
+[[kv_namespaces]]
+binding = "LOGS"
+id = "b349c9884a6d424ea7d7a74ec9cfd5d8"
+
+[[kv_namespaces]]
+binding = "SEED"
+id = "fd3d9eca017645308a96b5a917ad6c32" 

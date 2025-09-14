@@ -1,0 +1,56 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+.env.template
+
+# API Keys and Secrets
+*.key
+secrets.json
+config.json
+
+# Xcode
+.DS_Store
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcshareddata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Build
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# Ignore everything outside project directory
+../*
+!../RPGFINISH/
+!../RPGFINISH.xcodeproj/
+!../cloudflare/
+!../*.sh
+!../README.md
+!../.gitignore 

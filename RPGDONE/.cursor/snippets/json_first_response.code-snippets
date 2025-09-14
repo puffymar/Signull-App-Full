@@ -1,0 +1,15 @@
+{
+  "JSON First Block": {
+    "prefix": "jsonfirst",
+    "body": [
+      "{",
+      "  \"text\": \"$1\",",
+      "  \"choices\": [",
+      "    {\"label\":\"$2\", \"hint\":\"$3\"},",
+      "    {\"label\":\"$4\", \"hint\":\"$5\"}",
+      "  ]",
+      "}"
+    ],
+    "description": "Insert SIGNULL JSON-first shape."
+  }
+}

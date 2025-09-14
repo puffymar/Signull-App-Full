@@ -1,0 +1,14 @@
+{
+  "seeds": [
+    {"theme":"wasteland","setting":"radioactive salt flats under a broken moon","starter":"You wake to wind scraping glass across the dunes."},
+    {"theme":"oceanic","setting":"a flooded nave on Atlantis' rim","starter":"You surface inside a cathedral turned tide pool."},
+    {"theme":"urban","setting":"hotel corridor at 3:07AM, elevators stuck on 13","starter":"The carpet hums like a throat; a door across is ajar."},
+    {"theme":"apocalypse","setting":"blackout megacity with feral drone flocks","starter":"A red status LED blinks inside your ribcage."},
+    {"theme":"desert","setting":"mirror dunes that reflect futures not present","starter":"Footprints ahead diverge into three possible yous."},
+    {"theme":"void","setting":"abandoned broadcast station beyond the ring road","starter":"A dead jingle repeats backwards in the stairwell."},
+    {"theme":"forest","setting":"a forest where every leaf is a shard of mirror","starter":"You flinch at your own reflection rushing in the wind."},
+    {"theme":"oceanic","setting":"leviathan-back city dragging tides behind it","starter":"The streets tilt as the creature turns in its sleep."},
+    {"theme":"wasteland","setting":"glass desert formed by last summer's meteor","starter":"Static crackles from the fused dunes under your boots."},
+    {"theme":"urban","setting":"rain-lit alley where the neon spells your name","starter":"The letterforms smear as if the sign remembers you."}
+  ]
+} 

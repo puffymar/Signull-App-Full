@@ -1,0 +1,7 @@
+{
+  "text": "two short paragraphs",
+  "choices": [
+    {"label":"specific action", "hint":"subtle consequence"},
+    {"label":"specific action", "hint":"subtle consequence"}
+  ]
+}
