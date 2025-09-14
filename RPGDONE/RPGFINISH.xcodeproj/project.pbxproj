@@ -88,6 +88,12 @@
 		CCAF69CF2E4920600073705B /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF69712E49205F0073705B /* StoryView.swift */; };
 		CCAF69D02E4920600073705B /* NewGameInitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF69722E49205F0073705B /* NewGameInitView.swift */; };
 		CCAF69D12E4920600073705B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF69732E49205F0073705B /* ContentView.swift */; };
+		CCAF70B12E49AAAA0073705B /* AIStoriesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A12E49AAAA0073705B /* AIStoriesAPI.swift */; };
+		CCAF70B22E49AAAA0073705B /* DiscoverModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A22E49AAAA0073705B /* DiscoverModels.swift */; };
+		CCAF70B32E49AAAA0073705B /* GenreEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A32E49AAAA0073705B /* GenreEngine.swift */; };
+		CCAF70B42E49AAAA0073705B /* DiscoverVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A42E49AAAA0073705B /* DiscoverVM.swift */; };
+		CCAF70B52E49AAAA0073705B /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A52E49AAAA0073705B /* DiscoverView.swift */; };
+		CCAF70B62E49AAAA0073705B /* StoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCAF70A62E49AAAA0073705B /* StoryScreen.swift */; };
 		CCAF69D22E4920600073705B /* add_files_simple.sh in Resources */ = {isa = PBXBuildFile; fileRef = CCAF69742E49205F0073705B /* add_files_simple.sh */; };
 		CCAF69D32E4920600073705B /* worker.js in Resources */ = {isa = PBXBuildFile; fileRef = CCAF69762E49205F0073705B /* worker.js */; };
 		CCAF69D42E4920600073705B /* wrangler.toml in Resources */ = {isa = PBXBuildFile; fileRef = CCAF69772E49205F0073705B /* wrangler.toml */; };
@@ -191,6 +197,12 @@
 		CCAF69802E49205F0073705B /* add_audio_files.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = add_audio_files.sh; sourceTree = "<group>"; };
 		CCAF69D92E4920830073705B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE047632E1CC7DD00873727 /* RPGFINISH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGFINISH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCAF70A12E49AAAA0073705B /* AIStoriesAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/AI/AIStoriesAPI.swift; sourceTree = SOURCE_ROOT; };
+		CCAF70A22E49AAAA0073705B /* DiscoverModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/Models/DiscoverModels.swift; sourceTree = SOURCE_ROOT; };
+		CCAF70A32E49AAAA0073705B /* GenreEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/Models/GenreEngine.swift; sourceTree = SOURCE_ROOT; };
+		CCAF70A42E49AAAA0073705B /* DiscoverVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/ViewModels/DiscoverVM.swift; sourceTree = SOURCE_ROOT; };
+		CCAF70A52E49AAAA0073705B /* DiscoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/Views/DiscoverView.swift; sourceTree = SOURCE_ROOT; };
+		CCAF70A62E49AAAA0073705B /* StoryScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RPGFINISH/Views/StoryScreen.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -575,6 +587,12 @@
 				CCAF69932E4920600073705B /* Chapter.swift in Sources */,
 				CCAF69D02E4920600073705B /* NewGameInitView.swift in Sources */,
 				CCAF69C62E4920600073705B /* QuadrantMenuView.swift in Sources */,
+				CCAF70B12E49AAAA0073705B /* AIStoriesAPI.swift in Sources */,
+				CCAF70B22E49AAAA0073705B /* DiscoverModels.swift in Sources */,
+				CCAF70B32E49AAAA0073705B /* GenreEngine.swift in Sources */,
+				CCAF70B42E49AAAA0073705B /* DiscoverVM.swift in Sources */,
+				CCAF70B52E49AAAA0073705B /* DiscoverView.swift in Sources */,
+				CCAF70B62E49AAAA0073705B /* StoryScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
