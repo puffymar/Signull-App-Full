@@ -1,5 +1,21 @@
 import SwiftUI
 
+private struct TopBar: View {
+    var back: (() -> Void)?
+    let title: String
+    var body: some View {
+        HStack {
+            if let back { Button(action: back) { Image(systemName: "arrow.backward") } }
+            Spacer()
+            Text(title)
+                .font(.title3).tracking(2).foregroundStyle(.white.opacity(0.9))
+            Spacer()
+            Color.clear.frame(width: 28)
+        }
+        .padding(.horizontal)
+    }
+}
+
 struct StoryScreen: View {
     let opening: OpeningResponse
     let onBack: () -> Void
